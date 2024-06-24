@@ -17,5 +17,10 @@ pipeline {
               echo 'This is my Stage-3'
              }
         }
+        stage ("stage-5") {
+          steps {
+              echo 'This is my 2024-Q2'
+             }
+        }
     }
 } 
